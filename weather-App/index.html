@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link type="text/css" href="main.css" rel="stylesheet" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Weather App</title>
+	</head>
+	<body>
+		<div class="navBar">
+			<div class="rightMenue">
+				<ul>
+					<li> <a href="about.html">About</a> </li>
+					<li><a href="mailto:amjadiftikhar_99@hotmail.com.com">Contact</a></li>
+				</ul>
+			</div>
+			<div class="leftMenue">
+				<ul>
+					<li><a href="about.html"><img
+						src="./images/logo.gif" alt width="25" height="25">
+						</img></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="inputDiv">
+				<img class="searchIcon" src="./images/searchIcon.png" alt="" width="12px" height="12px" />
+				<input
+					type="text"
+					name="searchQuery"
+					id="searchInput"
+					placeholder="Enter city"
+				/>		
+			</div>
+			<button type="submit" class="btn">search</button>		
+			<div>				
+			</div>
+				<h2 id="city">City name</h2>
+				<p class="noResult"></p>
+				<p class="country">country</p>
+			<div class="section">
+				<div class="icon">
+					<p id="icon"></p>
+				</div>											
+				<div class="degrees">
+					<h1 id="temp">10</h1>
+					<span>&#176;</span>
+				</div>
+				<div class="detail">
+					<p class="desc"></p>
+					<p class="wind"></p>
+					<p class="humidity"></p>
+					<p class="sunRise"></p>
+					<p class="sunSet"></p>
+				</div>
+			</div>
+		</div>
+		<div class="map"></div>
+		<footer>
+			<div>
+				<img class="copyRight" 
+				src="./images/copyRights.png" alt width="60" height="60">
+				</img>
+			</div>		
+			<div class="socialMediaLinks">
+				<img class="copyRight" 
+				src="./images/facebook.png" width="30" height="30">
+				</img>
+				<img class="copyRight" 
+				src="./images/twitter.png" width="30" height="30">
+				</img>
+				<img class="copyRight" 
+				src="./images/linkedin.png" width="30" height="30">
+				</img>
+			</div>		
+		</footer>
+		<script src="main.js"></script>
+	</body>
+</html>
