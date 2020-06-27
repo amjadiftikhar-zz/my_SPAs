@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link type="text/css" href="style.css" rel="stylesheet" />
+		<title>Giphy App</title>
+	</head>
+	<body>
+		<div id="headDiv">
+			<h1>Giphy Searcher</h1>
+		</div>
+		<div class="container">
+			<div class="inputDiv">
+				<input
+					type="text"
+					name="searchQuery"
+					id="searchInput"
+					class="search"
+					placeholder="Enter query"
+				/>
+				<input type="number" name="searchResult" id="requiredNumber" />
+				<button type="submit" class="btn">Search for gif</button>
+			</div>
+			<div id="searchResult"></div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
